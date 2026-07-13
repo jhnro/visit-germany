@@ -3,6 +3,7 @@
   --black: #36383f;
   --grey: #e3e6eb;
   --yellow: #ffcc00;
+  --lightyellow: #e7cf70;
   --red: #ff0000;
   --green: #108b90;
 }
@@ -60,7 +61,7 @@ a {
 
 .header li a:hover,
 .header .side-menu:hover {
-  background-color: var(--yellow);
+  /* background-color: var(--yellow); */
 }
 
 .logo {
@@ -79,15 +80,16 @@ a {
 
 .menu li a {
   display: block;
-  padding: 15px 15px;
+  padding: 10px 15px;
   color: var(--white);
-  text-align: center;
+  text-align: left;
+  border-bottom: 1px dotted var(--lightyellow);
   /* text-align: center; */
 }
 
 .menu li a:hover {
-  background-color: var(--yellow);
-  color: var(--red);
+  /* background-color: var(--yellow); */
+  color: var(--lightyellow);
 }
 
 /* Menu Icon */
@@ -202,8 +204,8 @@ a.btn {
   display: flex;
   flex-direction: column;
   background: #3e4249;
-  margin: 68px 0 0;
-  padding: 20px 0 20px 20px;
+  margin: 53px 0 0;
+  padding: 5px 0 5px 5px;
   color: white;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -256,7 +258,7 @@ a.btn {
 
 #caruselos .carousel-control-prev,
 #caruselos .carousel-control-next {
-  background-color: #e1e1e1;
+  background-color: #0f0f0f;
   width: 6vh;
   height: 6vh;
   border-radius: 50%;
@@ -485,6 +487,7 @@ textarea {
 
   .menu li a {
     padding: 22px 22px;
+    border-bottom: none;
   }
 
   .header .menu {
@@ -498,8 +501,16 @@ textarea {
   }
 
   .menu li a:hover {
-    background-color: var(--yellow);
-    color: var(--red);
+    /* background-color: var(--yellow); */
+    color: var(--lightyellow);
+  }
+
+  #optin2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 68px 0 0;
+    padding: 5px 0 5px 5px;
   }
 
   .rowfoot {

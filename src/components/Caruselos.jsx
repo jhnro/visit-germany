@@ -22,7 +22,7 @@ const Caruselos = () => {
         <div className="row">
           <div
             id="carouselExampleControls"
-            className="carousel carousel-dark slide d-none d-lg-block"
+            className="carousel carousel slide d-none d-lg-block"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
@@ -229,7 +229,7 @@ const Caruselos = () => {
 
           <div
             id="carouselExampleControlsSmallScreen"
-            className="carousel carousel-dark slide d-md-block d-lg-none"
+            className="carousel carousel slide d-md-block d-lg-none"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
